@@ -1,9 +1,12 @@
 import React from 'react'
+import Layout from '../layouts/Layout'
 
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio Screen</h1>
-    </div>
+    <Layout>
+      <div>
+        <h1>Portfolio Screen</h1>
+      </div>
+    </Layout>
   )
 }

@@ -1,8 +1,10 @@
 import '../assets/css/screens/Resume.css'
+import Layout from '../layouts/Layout'
 
 export default function Resume() {
   return (
-    <div className='resume-container'>
+    <Layout>
+      <div className='resume-container'>
       <iframe className='resume' src="https://docs.google.com/document/d/1PCHSFyEKez4jTFxrCyFTCOf5NQSjuz_JUXMnVL8CqzI/preview" title='resume' width="650" height="600"></iframe>
       
       <br></br>
@@ -12,6 +14,7 @@ export default function Resume() {
               <br></br>
             </div>
 
-    </div>
+      </div>
+    </Layout>
   )
 }

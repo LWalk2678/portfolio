@@ -1,9 +1,12 @@
-import React from 'react'
+import Layout from '../layouts/Layout'
 
 export default function About() {
   return (
-    <div>
-      <h1>About Screen</h1>
-    </div>
+    <Layout>
+      <div>
+        <h1>About</h1>
+      </div>
+    </Layout>
+    
   )
 }

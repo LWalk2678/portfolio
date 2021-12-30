@@ -1,7 +1,7 @@
-#header {
-  height: 100vh;
-  min-height: 100%;
-  width: 100%;
+/* #header {
+  height: 75vh;
+  min-height: 100%; */
+/* width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -76,7 +76,7 @@
   width: 100px;
 }
 
-/* MOBILE BREAKPOINT */
+MOBILE BREAKPOINT
 
 @media only screen and (max-width: 600px) {
   #header {
@@ -125,4 +125,4 @@
     width: 60%;
     margin-top: 40px;
   }
-}
+} */
