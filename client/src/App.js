@@ -1,4 +1,4 @@
-//import './App.css';
+import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import Resume from './screens/Resume';
 import Home from './screens/Home';

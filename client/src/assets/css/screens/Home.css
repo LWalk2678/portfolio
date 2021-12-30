@@ -1,128 +1,70 @@
-/* #header {
-  height: 75vh;
-  min-height: 100%; */
-/* width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.homepage {
   background-color: #ced3dc;
+  height: 100vh;
   font-family: "Jost", sans-serif;
 }
 
-.homepage-title {
+.homepage-main {
   display: flex;
-  margin: 0 auto;
   align-items: flex-end;
+  justify-content: center;
 }
 
-#homepage-title {
-  display: flex;
-  align-items: flex-end;
-  width: 550px;
-  margin-bottom: 0;
-  font-size: 110px;
+.homepage-name {
+  background-color: #ced3dc;
+  margin-top: 125px;
+  margin-bottom: 0px;
+  width: 500px;
+  font-size: 100px;
   color: #4e8098;
   line-height: 100px;
   text-shadow: 2px 2px #90c2e7;
 }
 
-#homepage-subtitle {
-  display: flex;
-  align-items: flex-end;
-  align-content: flex-end;
+.homepage-title {
   width: 200px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   font-size: 35px;
-  color: #4e8098;
-}
-
-.header-carousel-container {
-  margin: 0px;
-  margin: 0 auto;
+  color: #a31621;
 }
 
 .page-break {
-  height: 1px;
-  width: 50%;
-  margin-top: -40px;
-  border: solid 1px #90c2e7;
+  height: 3px;
+  width: 700px;
 }
 
-.explore-container {
-  margin: 0 auto;
+.lower-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #4e8098;
+  font-size: 18px;
 }
 
-.explore-button {
-  width: 75px;
-  height: 75px;
-  margin-bottom: 40px;
-  background: none;
-  border-radius: 50%;
-  border: none;
-  outline: none;
-}
-
-.explore-button:hover {
-  cursor: pointer;
-  background-color: #f5e52f;
-  width: 120px;
-}
-
-#explore-arrow {
+.arrow {
   width: 100px;
+
+  background-color: #ced3dc;
 }
 
-MOBILE BREAKPOINT
+.arrow:hover {
+  width: 100px;
+  cursor: pointer;
+}
 
-@media only screen and (max-width: 600px) {
-  #header {
-    height: 100vh;
-    min-height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
+/* RESPONSIVNESS */
 
-  .homepage-title {
-    display: flex;
+@media only screen and (max-width: 700px) {
+  .homepage-main {
     flex-direction: column;
-    margin: 0 auto;
-    width: 100%;
     align-items: center;
   }
 
-  #homepage-title {
-    display: flex;
-    align-items: flex-end;
-    width: 200px;
-    margin-bottom: 0;
+  .homepage-name {
     text-align: center;
-    margin: 0 auto;
-    font-size: 50px;
-    line-height: 60px;
-  }
-
-  #homepage-subtitle {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    width: 200px;
-    text-align: center;
-    margin-bottom: 0;
-    font-size: 25px;
-  }
-
-  .header-carousel-container {
-    display: none;
   }
 
   .page-break {
-    width: 60%;
-    margin-top: 40px;
+    width: 400px;
   }
-} */
+}
