@@ -1,0 +1,69 @@
+.contact-page {
+  background-color: #ced3dc;
+  height: 100vh;
+}
+
+.contact-title {
+  margin-top: 0px;
+  padding-top: 75px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  font-family: "Jost", sans-serif;
+  font-size: 100px;
+  text-align: center;
+  color: #4e8098;
+  line-height: 100px;
+  text-shadow: 2px 2px #90c2e7;
+}
+
+.form-text {
+  font-family: "Dosis", sans-serif;
+  color: #4e8098;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+form {
+  margin: auto;
+  border: 2px solid #4e8098;
+  border-radius: 20px;
+  width: 300px;
+  padding: 20px 20px 20px 20px;
+  font-family: "Dosis", sans-serif;
+  color: #4e8098;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+label {
+  width: 50px;
+  padding-right: 10px;
+}
+
+input {
+  margin-left: 18px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+textarea {
+  width: 200px;
+  font-family: "Arial", sans-serif;
+}
+
+.submit-button {
+  background-color: #90c2e7;
+  color: #4e8098;
+  font-weight: bolder;
+  border-radius: 10px;
+  width: 100px;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+  .contact-title {
+    font-size: 75px;
+  }
+}
