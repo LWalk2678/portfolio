@@ -1,0 +1,36 @@
+.about-page {
+  background-color: #ced3dc;
+  padding-bottom: 75px;
+}
+
+.about-title {
+  margin-top: 0px;
+  padding-top: 75px;
+  padding-bottom: 25px;
+  margin-bottom: 0px;
+  font-family: "Jost", sans-serif;
+  font-size: 100px;
+  text-align: center;
+  color: #4e8098;
+  line-height: 100px;
+  text-shadow: 2px 2px #90c2e7;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  height: 400px;
+  border-radius: 75px;
+}
+
+.about-text {
+  font-family: "Dosis", sans-serif;
+  color: #4e8098;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 40px;
+  width: 400px;
+}
