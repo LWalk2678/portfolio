@@ -1,0 +1,19 @@
+.portfolio-page {
+  background-color: #ced3dc;
+  height: 100vh;
+  font-family: "Jost", sans-serif;
+  font-family: "Dosis", sans-serif;
+}
+
+.portfolio-title {
+  margin-top: 0px;
+  padding-top: 75px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  font-family: "Jost", sans-serif;
+  font-size: 100px;
+  text-align: center;
+  color: #4e8098;
+  line-height: 100px;
+  text-shadow: 2px 2px #90c2e7;
+}
