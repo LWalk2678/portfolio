@@ -1,5 +1,6 @@
 import Layout from '../layouts/Layout'
 import "../assets/css/screens/Portfolio.css";
+import cooking from "../assets/images/cooking.jpeg"
 
 export default function Portfolio() {
   return (
@@ -7,6 +8,21 @@ export default function Portfolio() {
       <div className='portfolio-page'>
         <h1 className='portfolio-title'>PORTFOLIO</h1>
         
+        <div className='projects-list'>
+          <div className='project'>
+            <h3>Dad's Dinner Ideas</h3>
+            <img className='project-image' src={cooking} alt="cooking picture" />
+            <p className='descritption'>
+              Created with.....CSS, outside API.  Helping single dad's come up with ideas for dinner.
+            </p>
+            <a href='https://github.com/LWalk2678/Dads_Dinner_ideas' target='blank'><button className="git-link"> View Code</button></a>
+            <a href='' target='blank'><button className="site-link">Visit Site</button> </a>
+          </div>
+        </div>
+        
+        {/* https://github.com/LWalk2678/drink-buddy */}
+        {/* https://github.com/LWalk2678/Project-3 */}
+
         {/* <div className='projects-container'>
           <div className='project-entry'>
             <h2>Mad-Libs</h2>
