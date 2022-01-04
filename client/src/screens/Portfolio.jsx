@@ -1,6 +1,8 @@
 import Layout from '../layouts/Layout'
 import "../assets/css/screens/Portfolio.css";
 import cooking from "../assets/images/cooking.jpeg"
+import martini from "../assets/images/martini.jpeg"
+import sunshine from "../assets/images/sunshine.jpeg"
 
 export default function Portfolio() {
   return (
@@ -8,7 +10,7 @@ export default function Portfolio() {
       <div className='portfolio-page'>
         <h1 className='portfolio-title'>PORTFOLIO</h1>
         
-        <div className='projects-list'>
+        <div className='project-list'>
           <div className='project'>
             <h3>Dad's Dinner Ideas</h3>
             <img className='project-image' src={cooking} alt="cooking picture" />
@@ -16,55 +18,30 @@ export default function Portfolio() {
               Created with.....CSS, outside API.  Helping single dad's come up with ideas for dinner.
             </p>
             <a href='https://github.com/LWalk2678/Dads_Dinner_ideas' target='blank'><button className="git-link"> View Code</button></a>
-            <a href='' target='blank'><button className="site-link">Visit Site</button> </a>
+            <a href='https://lwalk2678.github.io/Dads_Dinner_ideas/' target='blank'><button className="site-link">Visit Site</button> </a>
+          </div>
+
+          <div className='project'>
+            <h3>Drink Buddy</h3>
+            <img className='project-image' src={martini} alt="drink picture" />
+            <p className='descritption'>
+            A front-end app created with ReactJS and CSS.  Inspired by previous bartending at different locations and having an easy way to collaborate receipes so all drinks are made the same for the guests.
+            </p>
+            <a href='https://github.com/LWalk2678/drink-buddy' target='blank'><button className="git-link"> View Code</button></a>
+            <a href='https://drink-buddy.netlify.app/' target='blank'><button className="site-link">Visit Site</button> </a>
+          </div>
+
+          <div className='project'>
+            <h3>Dad's Dinner Ideas</h3>
+            <img className='project-image' src={sunshine} alt="cooking picture" />
+            <p className='descritption'>
+            A full-stack app created with ReactJS, CSS, node.JS, Express, MongoDB as a group project with three classmates.  Made to show the possibilities of an online marketplace.  Made with smoothies for a bright and fun environment. 
+            </p>
+            <a href='https://github.com/LWalk2678/Project-3' target='blank'><button className="git-link"> View Code</button></a>
+            <a href='https://sunshine-smoothies.netlify.app/' target='blank'><button className="site-link">Visit Site</button> </a>
           </div>
         </div>
-        
-        {/* https://github.com/LWalk2678/drink-buddy */}
-        {/* https://github.com/LWalk2678/Project-3 */}
 
-        {/* <div className='projects-container'>
-          <div className='project-entry'>
-            <h2>Mad-Libs</h2>
-            <img className='project-screenshot' src='https://i.imgur.com/8sU3GzQ.png' alt='mad-libs-screenshot' />
-            <p className='description'>
-            Created with vanillaJS, HTML, CSS, and the MadLibz random generator API. A user can answer prompts and read their own custom story. 
-            </p>
-
-            <a href='https://github.com/willwardlow/mad-libs' target='blank'><button className='gh-link'> View Code</button></a>
-            <a href='https://willwardlow.github.io/mad-libs/' target='blank'><button className='live-site'>Visit Site</button></a>
-          </div>
-
-          <div className='project-entry'>
-            <h2 className='title'>Brown Book</h2>
-              <img className='project-screenshot' src='https://i.imgur.com/9fNrAAW.png' alt='brown-book-screenshot' />
-              <p className='description'>
-                A front-end app created with ReactJS and CSS, inspired by my previous profession of a coffeebar manager and trainer. A digital coffee resource and coffee tasting journal is available for users to learn more about their first drink in the morning!
-              </p>
-              <a href='https://github.com/willwardlow/the-brown-book'><button className='gh-link'>View Code</button></a>
-              <a href='https://naughty-mcnulty-c7230f.netlify.app/'><button className='live-site'>View Site</button></a>
-          </div>
-
-          <div className='project-entry'>
-            <h2 className='title'>SongsYoü</h2>
-              <img className='project-screenshot' src='https://i.imgur.com/P9XzAMB.png' alt='songs-you-screenshot' />
-              <p className='description'>
-                A full-stack app created with ReactJS, CSS, node.JS, Express, MongoDB, and 3 other friends! Users can log in and create their own music playlist from a song. User can also add other songs with a provided YouTube link. Tracking user clicks and ratings displays highest rated songs and most popular songs. 
-              </p>
-              <a href='https://github.com/jstiles44/P3-Playlist-App'><button className='gh-link'>View Code</button></a>
-              <a href='https://songsu.netlify.app/'><button className='live-site'>Visit Site</button></a>
-          </div>
-
-          <div className='project-entry'>
-            <h2 className='title'>Chicago Pizza Party</h2>
-              <img className='project-screenshot' src='https://i.imgur.com/mPAAigY.png' alt='pizza-party-screenshot' />
-              <p className='description'>
-                A full-stack app created with ReactJS, Ruby, Rails, and CSS that was inspired by Do312.com and my love of Chicago pizza! Local Chicagoans can create a profile for their submission of what's the best pizza place in the city.
-              </p>
-              <a href='https://github.com/willwardlow/pizza_party'><button className='gh-link'>View Code</button></a>
-              <a href='https://chicago-pizza-party.surge.sh/'><button className='live-site'>Visit Site</button></a>
-          </div>
-        </div> */}
       </div>
     </Layout>
   )
