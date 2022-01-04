@@ -32,8 +32,8 @@ export default function Portfolio() {
           </div>
 
           <div className='project'>
-            <h3>Dad's Dinner Ideas</h3>
-            <img className='project-image' src={sunshine} alt="cooking picture" />
+            <h3>Sunshine Smoothies</h3>
+            <img className='project-image' src={sunshine} alt="smoothie pic" />
             <p className='descritption'>
             A full-stack app created with ReactJS, CSS, node.JS, Express, MongoDB as a group project with three classmates.  Made to show the possibilities of an online marketplace.  Made with smoothies for a bright and fun environment. 
             </p>
