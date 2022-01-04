@@ -76,3 +76,9 @@ textarea {
     font-size: 75px;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .contact-title {
+    font-size: 45px;
+  }
+}
