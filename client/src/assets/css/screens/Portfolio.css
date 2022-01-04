@@ -35,6 +35,7 @@
 
 .project {
   width: 30vw;
+  min-width: 275px;
   max-height: 500px;
   margin-bottom: 50px;
   background-color: #4e8098;
@@ -62,4 +63,16 @@
   border: none;
   border-radius: 8px;
   padding: 3px 6px 3px 6px;
+}
+
+@media only screen and (max-width: 700px) {
+  .portfolio-title {
+    font-size: 75px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .portfolio-title {
+    font-size: 45px;
+  }
 }

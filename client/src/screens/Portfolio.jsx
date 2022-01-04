@@ -31,7 +31,7 @@ export default function Portfolio() {
             <a href='https://drink-buddy.netlify.app/' target='blank'><button className="site-link">Visit Site</button> </a>
           </div>
 
-          <div className='project'>
+          <div className='project'>+
             <h3>Sunshine Smoothies</h3>
             <img className='project-image' src={sunshine} alt="smoothie pic" />
             <p className='descritption'>
