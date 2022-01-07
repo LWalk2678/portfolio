@@ -69,7 +69,7 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .homepage-name {
     font-size: 45px;
     display: flex;
