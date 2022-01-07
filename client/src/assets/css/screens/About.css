@@ -1,7 +1,6 @@
 .about-page {
   background-color: #ced3dc;
-  /* height: 100vh; */
-  margin-bottom: auto;
+  padding-bottom: 75px;
 }
 
 .about-title {
